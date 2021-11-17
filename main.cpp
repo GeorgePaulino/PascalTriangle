@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
 #include<iostream>
 #include<list>
 #include<vector>
@@ -23,6 +22,7 @@ using namespace std;
  * @return Binomial.
  */
 int Binomial(int r, int c);
+
 /**
  * @brief Calculates the Factorial of a given number.
  * 
