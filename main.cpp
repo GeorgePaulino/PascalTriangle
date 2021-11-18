@@ -5,31 +5,15 @@
  * @version 1.0
  * @date 2021-11-07
  * 
- * @copyright Copyright (c) 2021
- * 
  */
+
 #include<iostream>
 #include<list>
 #include<vector>
 
+#include"functions.hpp"
+
 using namespace std;
-
-/**
- * @brief Calculates a binomial number.
- * 
- * @param r Number above.
- * @param c Number below.
- * @return Binomial.
- */
-int Binomial(int r, int c);
-
-/**
- * @brief Calculates the Factorial of a given number.
- * 
- * @param n Number.
- * @return Factorial.
- */
-unsigned long long int Factorial(int n);
 
 int main()
 {
@@ -90,19 +74,4 @@ int main()
     }
     cout << "\n";
     system("pause");
-}
-
-int Binomial(int r, int c)
-{
-    return Factorial(r) / (Factorial(c) * Factorial(r - c));
-}
-
-unsigned long long int Factorial(int n)
-{ 
-    unsigned long long int f = 1;
-    for(unsigned long long int i = 1; i <= n; i++)
-    {
-        f *= i;
-    }
-    return f;
 }
