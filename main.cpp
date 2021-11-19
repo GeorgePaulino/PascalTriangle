@@ -68,7 +68,7 @@ int main()
     {
         for(unsigned long long int y : x)
         {
-            cout << y << "\t\t";
+            cout << y << "$";
         }
         cout << "\n";
     }
