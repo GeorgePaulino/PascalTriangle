@@ -1,6 +1,5 @@
 /**
  * @file functions.cpp
- * @author George Paulino (github.com/GeorgePaulino)
  * @brief Someone functions to return calculateds values.
  * 
  */

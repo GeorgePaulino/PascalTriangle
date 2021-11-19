@@ -1,6 +1,6 @@
 /**
- * @file main.cpp
  * @author George Paulino (github.com/GeorgePaulino)
+ * @file main.cpp
  * @brief A code to generate Triangle of Pascal with a given rows number.
  * @version 1.0
  * @date 2021-11-07
