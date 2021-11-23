@@ -1,6 +1,6 @@
 /**
  * @file functions.cpp
- * @brief Someone functions to return calculateds values.
+ * @brief Some functions to return calculated values.
  * 
  */
 
