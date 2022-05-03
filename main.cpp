@@ -52,7 +52,7 @@ int main()
 
         for(int current_column = 0; current_column < columns; current_column++)
         {
-            if(light_mode) pascal_row.push_back(Binomial(current_row, current_column));
+            if(!light_mode) pascal_row.push_back(Binomial(current_row, current_column));
             else
             {
                 if(current_column == 0 || current_column == columns - 1) pascal_row.push_back(1);
